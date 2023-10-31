@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2b5b84;
+    ;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+header img {
+    width: 300px;
+}
+
+.search {
+    border: 10px solid #1e2933;
+    border-radius: 10px;
+    box-shadow: 3px #1e2933;
+}
+
+nav {
+    background-color: #3776ab;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 70rem;
+    height: 4rem;
+    border-radius: 10px;
+    font-family: SourceSansProRegular, Arial, sans-serif;
+}
+
+.size a {
+    color: #ffd343;
+}
+
+.size span {
+    color: white;
+}
+
+nav a {
+    font-size: xx-large;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+section a {
+    color: white;
+    font-size: 25px;
+
+}
+
+section li {
+    padding: 5px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.text {
+    width: 40rem;
+    height: 5rem;
+    color: white;
+    text-align: center;
+}
+
+.texting {
+    text-align: center;
+    margin-top: 50px;
+    font-size: x-large;
+}
+
+.texting h3 {
+    color: #ffd343;
+    ;
+    padding: 6px;
+}
+
+.texting p {
+    color: white;
+}
+
+.list ul {
+    list-style-type: square;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.aplications {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 15rem;
+}
+
+div .tag {
+    width: 350px;
+    margin: 155px;
+    padding: 5px;
+    text-align: center;
+}
+
+.tag h4 {
+    padding: 5px;
+    font-size: larger;
+}
+
+.tag p {
+    padding: 5px;
+    font-size: 17px;
+}
+
+.list ul {
+    list-style-position: initial;
+}
+
+.list span {
+    color: #89b4d9;
+}
+
+.tag span {
+    color: #89b4d9;
+
+}
+
+.line {
+    border: #3776ab solid 3px;
+}
+
+h2 {
+    color: #89b4d9;
+    display: inline-block;
+    padding: 10px;
+    font-family: Flux-Bold, SourceSansProBold, Arial, sans-serif;
+    font-style: normal;
+}
+
+footer {
+    text-align: center;
+
+}
+
+.copy {
+    color: #89b4d9;
+    margin: 5px;
+}

@@ -1,0 +1,56 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    background-color: palegoldenrod;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60rem;
+    height: 47rem;
+    margin: 0 auto;
+
+}
+
+.ninjas img {
+    width: 60px;
+}
+
+.ninjas {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.blue {
+    height: 150px;
+    width: 150px;
+    background-color: cornflowerblue;
+    border: 6px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+}
+
+.pink {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(220, 115, 115);
+    border: 6px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+}
+
+img {
+    width: 125px;
+    height: auto;
+}
+
+.block {
+    display: flex;
+}
