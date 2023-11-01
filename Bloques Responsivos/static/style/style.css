@@ -1,0 +1,125 @@
+/*CSS reset settings here*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+        margin: 10px;
+    }
+
+
+    .row1 {
+        display: flex;
+        gap: 19px;
+    }
+
+    #wrapper {
+        width: 950px;
+        background-color: silver;
+        margin: 50px auto;
+        padding: 15px;
+    }
+
+    #header {
+        min-height: 150px;
+        background-color: green;
+
+    }
+
+    #navigation {
+        min-height: 300px;
+        width: 200px;
+        background-color: blue;
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    #main_content {
+        min-height: 400px;
+        width: 700px;
+        background-color: red;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 10px;
+        margin-left: 6.2rem;
+    }
+
+    .subcontents {
+        min-height: 200px;
+        width: 200px;
+        background-color: yellow;
+        display: inline-block;
+        margin-left: 10px;
+        margin-top: 8px;
+
+
+    }
+
+    #advertisement {
+        min-height: 120px;
+        width: 660px;
+        background-color: purple;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #navigation {
+        display: none;
+    }
+
+    #header {
+        min-width: 48rem;
+    }
+
+    #main_content {
+        margin-left: 0;
+        width: 48rem;
+
+
+    }
+
+    .subcontents {
+        min-height: 120px;
+        width: 350px;
+    }
+
+    .row1 {
+        margin: 15.5px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 50rem;
+    }
+
+
+
+    #advertisement {
+        width: 46rem;
+        margin: 15px;
+    }
+
+
+}
+
+@media only screen and (max-width: 480px) {
+    .row1 {
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+    }
+
+    .subcontents {
+        width: 46rem;
+        margin-left: 0;
+
+    }
+
+    #advertisement {
+        width: 46rem;
+        margin: 15px;
+    }
+
+}
