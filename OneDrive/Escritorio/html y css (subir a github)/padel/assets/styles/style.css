@@ -1,0 +1,504 @@
+:root {
+    --purple-color: #8b48bf;
+    --aqua-color: #3cddf3;
+    --nav-color: #242e52;
+    --nav-color-hover: #242e5299;
+    --h-color: #232c50;
+    --text-color-1: #323851;
+    --text-color-2: #b9b9c1;
+    --purple-color-hover: #8b48bfb3;
+    --background-color-section: #fafafa;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 10px;
+}
+
+header {
+    padding: 6rem 18rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.header__nav a {
+    color: var(--nav-color);
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+    text-decoration: none;
+    margin-right: 2.5rem;
+}
+
+.header__nav a:hover {
+    color: var(--nav-color-hover);
+
+}
+
+.purple-button {
+    color: white;
+    background-color: var(--purple-color);
+    width: 14rem;
+    height: 4.4rem;
+    border-radius: 4rem;
+    border: none;
+    box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem var(--text-color-2);
+}
+
+.purple-button:hover {
+    background-color: var(--purple-color-hover);
+    cursor: pointer;
+
+}
+
+.menu {
+    display: none;
+}
+
+.banner__container {
+    display: flex;
+    padding: 0 18rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner__container img {
+    width: 30rem;
+    height: 30rem;
+    margin-left: 2rem;
+}
+
+.banner__title {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40rem;
+    padding-left: 20%;
+    text-align: end;
+    margin: 8rem 0;
+}
+
+.banner__title h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.4rem;
+}
+
+.banner__title p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+
+.report__differences {
+    height: 70rem;
+}
+
+.special__box {
+    background-color: var(--purple-color);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 18rem;
+
+}
+
+.main__information__title {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.4rem;
+    width: 50%;
+}
+
+.main__information__text {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2rem;
+    width: 50%;
+}
+
+.card__diferences__container {
+    background-color: var(--background-color-section);
+    align-items: flex-start;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    height: 22rem;
+    margin: 3rem;
+
+}
+
+.card__differences__container--down {
+    display: flex;
+    justify-content: center;
+}
+
+.card__differences {
+    height: 20rem;
+    width: 35rem;
+}
+
+
+
+
+.card__differences {
+    color: var(--text-color-1);
+}
+
+.card__differences span {
+    background-color: var(--purple-color);
+    color: white;
+    border-radius: 1.6rem;
+    display: inline-block;
+    margin-right: 2rem;
+    padding: 0.7rem 1.4rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+
+
+}
+
+.card__differences__title {
+    color: var(--text-color-1);
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+
+}
+
+
+.card__differences__text {
+    color: var(--text-color-2);
+    padding-left: 7.4rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+
+
+.podium {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50rem;
+    margin-top: 8rem;
+    margin-bottom: 12rem;
+}
+
+.podium__title {
+    color: var(--h-color);
+    font-size: 3.4rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+
+}
+
+.card__podium__container {
+    align-items: center;
+    background-color: var(--background-color-section);
+    display: flex;
+    justify-content: space-between;
+    height: 20rem;
+    width: 90%;
+}
+
+.podium__card {
+    text-align: center;
+
+}
+
+.podium__card img {
+    position: relative;
+    top: -4rem;
+}
+
+.card__best__name {
+    color: var(--text-color-1);
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.card__best__info {
+    color: var(--text-color-1);
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.best__team {
+    padding: 8rem 18rem;
+}
+
+.bests__teams__button {
+    background-color: var(--background-color-section);
+    color: var(--purple-color);
+
+}
+
+.bests__teams__title {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.6;
+    width: 40%;
+}
+
+footer {
+    background-color: #1e1e26;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0 16rem;
+
+}
+
+.event__info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 24rem;
+}
+
+.brand {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.logo-footer {
+    height: 6rem;
+    width: 10rem;
+}
+
+.redes__sociales {
+    margin-right: 1rem;
+}
+
+.footer__nav {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin-top: 2.8rem
+}
+
+.footer__nav li {
+    margin-bottom: 2rem;
+}
+
+.footer__nav ul {
+    color: white;
+    list-style: none;
+}
+
+.footer__nav a {
+    text-decoration: none;
+    color: var(--background-color-section);
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+}
+
+.input__mail {
+    width: 21rem;
+    height: 4.4rem;
+    border-radius: 4rem;
+}
+
+.form__buttom {
+    box-shadow: none;
+    width: 7rem;
+    margin-left: 1rem;
+}
+
+.input__mail::placeholder {
+    padding-left: 1.6rem;
+}
+
+.copyright {
+    color: var(--text-color-2);
+    padding: 2rem 2rem 4rem 0;
+    text-align: end;
+}
+
+@media only screen and (max-width:720px) {
+    html {
+        font-size: 8px;
+    }
+
+    .mobile__none {
+        display: none;
+    }
+
+    header {
+        padding: 4rem 6rem;
+
+    }
+
+    .menu {
+        display: inline-block;
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .banner__container {
+        flex-direction: column;
+        padding: 0;
+    }
+
+
+    .banner__title {
+        margin: 5rem 0rem 5rem 0rem;
+        padding: 0rem 3rem 0rem 16rem;
+        width: 100%;
+        height: 24rem;
+
+    }
+
+    .report__differences {
+        height: auto;
+    }
+
+    .special__box {
+        align-items: flex-start;
+        background-color: var(--aqua-color);
+        flex-direction: column;
+        padding: 4rem 0 4rem 2rem;
+
+    }
+
+    .main__information {
+        height: 28rem;
+    }
+
+    .main__information__title {
+        width: 80%;
+        font-size: 4rem;
+        display: inline-block;
+    }
+
+    .card__diferences__container {
+        margin: 6rem 0 0 0;
+    }
+
+    .main__information__text {
+        width: 90%;
+        display: inline-block;
+    }
+
+    .card__differences {
+        margin-left: 6rem;
+        width: 90%;
+    }
+
+    .card__differences__container--down {
+        margin-top: 18rem;
+    }
+
+    .card__differences__text {
+        padding: 2rem 0 1rem;
+    }
+
+    .card__differences__title {
+        background-color: rgb(139, 72, 191, 0.3);
+        border-radius: 1.6rem 0 0 1.6rem;
+
+    }
+
+    .purple-button {
+        box-shadow: none;
+    }
+
+    .best__team {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0;
+        height: 30rem;
+        width: 100%;
+    }
+
+    .bests__teams__title {
+        width: 40%;
+        text-align: center;
+    }
+
+    .bests__teams__button {
+        background-color: var(--h-color);
+        color: white;
+    }
+
+    footer {
+
+        height: 50rem;
+        padding: 0;
+    }
+
+    footer form {
+        width: 100%;
+        padding: 2rem 4rem;
+
+    }
+
+    .input__mail {
+        width: 35rem;
+    }
+
+    .footer__nav {
+        width: 90%;
+    }
+
+    .brand {
+        margin-top: 3rem;
+        align-items: center;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .social__media {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .redes__sociales {
+        margin: 0;
+    }
+
+    .event__info {
+        flex-direction: column-reverse;
+        height: 50rem;
+    }
+
+    .copyright {
+        padding: 1.4rem 0;
+        text-align: center;
+    }
+
+
+
+
+
+}
