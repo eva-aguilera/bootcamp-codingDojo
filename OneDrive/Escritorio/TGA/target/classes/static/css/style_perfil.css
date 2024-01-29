@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@300&family=Roboto:wght@100;300&display=swap');
+body {
+    background-image: url('/img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+header {
+    
+    background-color: #19191a;
+    padding: 10px;
+    color: #fff;
+    font-size: 10px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    height: 550px;
+}
+nav li {
+    display: block;
+    margin-bottom: 40px;
+    position: relative;
+}
+nav a {
+    font-family: 'Cairo Play', cursive;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition:all 500ms ease ;
+    -o-transition:all 500ms ease ;
+    transition:all 500ms ease ;
+}
+nav a:hover {
+    background: rgba(127, 196, 136, 0.8);
+    border-radius: 20px;
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
+section {
+    padding: 20px;
+    flex: 1;
+}
+section h2 {
+    font-family: 'Cairo Play', cursive;
+    border-bottom: 2px solid #12611c;
+    color: #cafaaf;
+    text-align: center;
+}
+footer {
+    background-color: #19191a;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/*Seccion superior*/
+.Menu_Superior .avatar{
+    border-radius: 50px;
+    width: 100px;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-inline-start: 30px;
+}
+.Menu_Superior {
+    align-items: flex-start;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.Menu_Superior .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.Menu_Superior h3,
+.Menu_Superior p {
+    font-family: 'Cairo Play', cursive;
+    margin: 0;
+}
+
+.Bloque_General {
+    height: 400px;
+    width: 400px;
+    background: rgba(119, 119, 119,0.8);
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    
+}
+
+/*Seccion central*/
+.info_usuario{
+    margin-inline-start: 30px;
+    margin-top: 120px;
+    position: absolute;
+}
+.info_usuario p {
+    font-family: 'Cairo Play', cursive;
+    margin: 0;
+    display: flex;
+}
+/*Seccion Inferior*/
+.alianza .nombre_alianza{
+    margin-inline-start: 30px;
+    margin-top: 270px;
+    font-family: 'Cairo Play', cursive;
+}
+.alianza .banner{
+    border-radius: 10px;
+    width: 200px;
+    margin-top: 305px;
+    margin-right: 50px;
+    margin-inline-start: 30px;
+    position: absolute;
+}
+.alianza button{
+    margin-top: -10px;
+    margin-inline-start: 250px;
+    margin-bottom: 15px;
+    background-color: #77e67a;
+    color: #080808; 
+    border: none; 
+    border-radius: 10px;
+    padding: 1px 20px; 
+    font-family: 'Cairo Play', cursive;
+    font-size: 13px;
+    cursor: pointer; 
+    outline: none; 
+}
+
+aside {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
